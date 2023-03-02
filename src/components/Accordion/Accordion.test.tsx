@@ -1,9 +1,9 @@
-import { render, screen, userEvent } from '../../utils/test-utils';
-import Accordion from './index'
+import { render, screen } from '../../utils/test-utils';
+import Accordion from './index';
 
 describe('Accordion', () => {
   it('should render the text', () => {
-    render(<Accordion />)
+    render(<Accordion />);
 
     expect(screen.getByText('Accordion')).toBeInTheDocument();
   });
