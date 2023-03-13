@@ -1,0 +1,10 @@
+.ErrorContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    color: whitesmoke;
+    font-weight: 700;
+}
